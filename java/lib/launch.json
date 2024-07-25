@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "type": "java",
+          "name": "Launch Client",
+          "request": "launch",
+          "mainClass": "Client",
+          "classPaths": [
+              "lib/mysql-connector-j-8.3.0.jar"
+          ]
+      },
+      {
+          "type": "java",
+          "name": "Launch Server",
+          "request": "launch",
+          "mainClass": "Server",
+          "classPaths": [
+              "lib/mysql-connector-j-8.3.0.jar"
+          ]
+      }
+  ]
+}
